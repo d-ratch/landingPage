@@ -160,7 +160,7 @@ a {
 .quote {
     font-size: 24px;
     font-style: italic;
-    font-weight:150;
+    font-weight: 150;
     color: #1F2937;
     margin: 150px;
     flex: auto;
@@ -175,17 +175,58 @@ a {
 }
 
 .bodyFour {
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.bfc {
+    height: 100px;
+    width: 700px;
+    background-color: #3882f6;
+    color: white;
+    border-radius: 8px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .action {
-
+    font-weight: 600;
 }
 
 .sign {
+    color: #E5E7EB;
+    font-size: 12px;
+}
 
+.butcon {
+    display: flex;
+}
+
+.button2 {
+    background-color: #3882f6;
+    border: 2px solid white;
+    border-radius: 8px;
+    color: white;
+    font-size: 14px;
+    padding: 4px 16px;
+    text-align: center;
+    text-decoration: none;
+    width: 60px;
 }
 
 .footer {
-
+    height: 50px;
+    width: auto;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    margin-top: 0px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
