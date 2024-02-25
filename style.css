@@ -150,15 +150,28 @@ a {
 }
 
 .bodyThree {
+    height: 225px;
+    background-color: #E5E7EB;
 
+    display: flex;
+    align-items: center;
 }
 
 .quote {
-
+    font-size: 24px;
+    font-style: italic;
+    font-weight:150;
+    color: #1F2937;
+    margin: 150px;
+    flex: auto;
 }
 
 .author {
-
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    display: flex;
+    justify-content: flex-end;
 }
 
 .bodyFour {
