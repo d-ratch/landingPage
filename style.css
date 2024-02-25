@@ -6,9 +6,9 @@ body {
 }
 
 .header {
-    height: 75px;
+    height: 50px;
     width: auto;
-    background-color: #1F2937;
+    background-color: #3882f6;
     margin-top: 0px;
     
     display: flex;
@@ -102,15 +102,51 @@ a {
 }
 
 .bodyTwo {
+    height: 275px;
+    width: auto;
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+}
 
+.btwh {
+    font-size: 24px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
+
+.itemContainer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .item {
-
+    height: 200px;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .box {
+    height: 110px;
+    width: 110px;
+    border: 2px solid #3882f6;
+    border-radius: 12px;
+    align-items: center;
+}
 
+.btwt {
+    width: 125px;
+    font-size: 12px;
+    color: #898c93;
+    padding: 2px;
+    text-align: center;
 }
 
 .bodyThree {
